@@ -1,0 +1,39 @@
+h1 {
+    text-align: center;
+}
+.display {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: larger;
+    display: flex;
+    width: 300px;
+    margin:auto;
+}
+.botonera {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.clickBtn {
+    background-color: blue;
+    color: white;
+    padding: 20px;
+}
+
+.resetBtn {
+    background-color: red;
+    color: white;
+    padding: 20px;
+}
+a:link, a:visited,  a:hover, a:active
+{
+    color: white;
+    text-decoration: none;
+}
